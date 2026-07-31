@@ -1,0 +1,237 @@
+<mjml lang="en">
+  <mj-head>
+    <mj-title>Capella University</mj-title>
+    <mj-breakpoint width="480px" />
+    <mj-attributes>     
+      <mj-section padding="0" />
+      <mj-text css-class="textlink-hover" font-family="Arial,sans-serif" line-height="24px" font-size="16px" color="#000000" />
+      <mj-button css-class="hovered" font-size="16px" line-height="20px" font-weight="bold" background-color="#C10016" font-family="Arial,sans-serif" border-radius="50px" />
+      <mj-navbar-link color="#000000" font-size="12px" line-height="18px" padding="18px 4% 18px 4%" />
+    </mj-attributes>    
+    <mj-style inline="inline">
+      h1{font-family: AcuminCondensedBlack,Impact,sans-serif; font-size:42px; line-height:38px; font-weight:normal; text-transform: uppercase; letter-spacing: -1px; margin:0px !important;}
+      h2{font-family: AcuminCondensedBlack,Impact,sans-serif; font-size:36px; line-height:34px; font-weight:normal; text-transform: uppercase; letter-spacing: -1px; margin:0px !important;}
+      h3{font-family: AcuminCondensedBlack,Impact,sans-serif; font-size:30px; line-height:28px; font-weight:normal; text-transform: uppercase; margin:0px !important;}      
+      h4{font-family: AcuminCondensedBlack,Impact,sans-serif; font-size:24px; line-height:24px; font-weight:normal; text-transform: uppercase; margin:0px !important;}
+      
+      h5{font-family:Arial,sans-serif;font-size:22px; line-height:26px;margin:0px !important;}
+      h6{font-family:Arial,sans-serif;font-size:18px; line-height:22px;margin:0px !important;}
+      a{color:#C10016;font-weight:bold; text-decoration:none;}
+    </mj-style>
+    <mj-style> 
+    @font-face {
+    font-family: "AcuminCondensedBlack"; src: 
+      url("https://www.capella.edu/content/dam/sei-dam/cu/cuev/email/AcuminProCondensed_normal_condensed_900.eot"),
+      url("https://www.capella.edu/content/dam/sei-dam/cu/cuev/email/AcuminProCondensed_normal_condensed_900.eot?#iefix") format("embedded-opentype"),	      
+      url("https://www.capella.edu/content/dam/sei-dam/cu/cuev/email/AcuminProCondensed_normal_condensed_900.woff2") format("woff2"),  
+       url("https://www.capella.edu/content/dam/sei-dam/cu/cuev/email/AcuminProCondensed_normal_condensed_900.woff")format("woff"),
+ url("https://www.capella.edu/content/dam/sei-dam/cu/cuev/email/AcuminProCondensed_normal_condensed_900.ttf")format("truetype"),
+    url("https://www.capella.edu/content/dam/sei-dam/cu/cuev/email/AcuminProCondensed_normal_condensed_900.svg")format("svg");
+       }  
+    </mj-style>         
+
+         <!-- CU Colors 
+      white{color: #ffffff !important;}
+      UniversityBlack{color: #212322;}
+      UniversityRed{color: #C10016}
+      UniversityGray{color: #D9D9D6;}
+      CareerBlue{color: #425563;}
+      StatBlue{color: #94B7BB;#A9C5C9;#BFD4D6;#D4E2E4;#EAF1F1}
+      FutureGlow{color: #D3BC8D;}
+      Boulder{color: #8A8D8F;}
+      Light Gray{color: #F0F0EF;}
+      NewCareerBlue{color: #253746;}
+ -->
+    
+    <mj-style>
+      
+      /* Prevent Android text-resizing */
+      * {-webkit-text-size-adjust: none;
+      }  
+      /* Prevent Apple blue links. */
+      a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+      }
+      /* Prevent Gmail blue links. */
+      u + #body a {
+      color: inherit;
+      text-decoration: none;
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit;
+      line-height: inherit;
+      }
+      /* Prevent Samsung blue links. */
+      #MessageViewBody a {
+      color: inherit;
+      text-decoration: none;
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit;
+      line-height: inherit;
+      }
+      /* Prevent Outlook from breaking words. */
+  		.hyphenation-outlook table td{
+      -moz-hyphens: none !important; 
+      -o-hyphens: none !important;
+      -webkit-hyphens: none !important;
+      -ms-hyphens: none !important;
+      hyphens: none !important;
+      mso-hyphenate: none !important;     
+      }
+      a:visited {
+      color: initial;
+      text-decoration: initial;
+      font-size: initial;
+      font-family: initial;
+      font-weight: initial;
+      line-height: initial;
+      }
+      a:hover {
+      text-decoration: underline !important;
+      }
+      .textlink-hover a:hover {
+      text-decoration: underline !important;
+      color: #8A0010 !important;
+      }
+      .lighttextlink-hover a:hover {
+      text-decoration: underline !important;
+      color: #D3BC8D !important;
+      }
+      .hovered a:hover, .hovered td:hover {
+      background: #8a0010 !important;
+      text-decoration: none !important;
+      color: #FFFFFF !important;
+      }
+      .ghostbtn a:hover, .ghostbtn td:hover {
+      background: #E6E5E5 !important;
+      color: #B62025 !important;
+      text-decoration: none !important;
+      }
+      .Eyebrow div{
+      font-family:Arial,sans-serif !important;
+      font-size:12px !important;
+      line-height:22px !important;
+      letter-spacing:2px !important; 
+      text-transform: uppercase !important; 
+      font-weight:bold !important;
+      }<!-- Line-heights on this heading type needs to also be on the mj-text, to prevent it from pulling in the standard text 24px -->
+      .nav-nowrap a {
+      white-space: nowrap;
+      }
+      .icon-group table td{
+      padding: 5px !important;
+      }      
+      .iconbox-height{
+      height: 160px;
+      }
+      .appt-table td {
+      border:1px solid #232323 !important;
+      }
+      
+      @media (max-width:600px) {
+      .mhidden, .mhidden table{
+       display: none;
+       width: 0%;
+       border: 0px !important;
+       }
+      .mnavlogo{ 
+       width: 100% !important;
+       border: 0px !important;
+       }
+      .claimdirection div{
+       text-align:left !important;
+       padding:30px 0 0 25px;
+       }
+      .navcenter table {
+       text-align: center !important;
+       margin-left: auto !important;
+       margin-right:auto !important;
+       width: 100% !important; 
+     	 } 
+      .mobile-logo img{
+       width: 200px !important;      
+       margin-left: auto !important;
+       margin-right:auto !important;
+       padding: 10px 0px 10px
+    	 }
+      .mobilepadding {       
+       padding-left: 25px !important;
+       padding-right: 25px !important;
+       }
+      .icon-size img{
+       width:46px !important; 
+       height:46px !important;
+       margin-left: auto !important;
+       margin-right:auto !important;
+   	   }   
+      .mobileleft,
+      .mobileleft td div{
+       text-align: left !important;
+       margin-left: auto !important;
+       margin-right:auto !important;
+       }
+      .mobilecenter,
+      .mobilecenter div table {
+       text-align: center !important;
+       margin-left: auto !important;
+       margin-right:auto !important;
+       }
+      .textcenter div {
+       text-align: center !important;
+       margin-left: auto !important;
+       margin-right:auto !important;
+       }
+      .text-box td.textlink-hover,
+      .text-box td td.hovered,
+      .text-box td.ghostbtn{
+       padding-left: 15px !important;
+       padding-right:15px !important; 
+       }
+      .no-padding-mobile td {       
+       padding-left: 0px !important;	
+       padding-right: 0px !important;	
+			 }
+      }
+      
+        @media (min-width:601px) {
+        .dhidden {
+        display: none;
+        width: 0% !important;
+        border: 0px !important;
+         }
+        }
+    </mj-style>
+    <mj-raw>
+      <!-- ADD CODE SNIPPET (MARKETING - CLOSED TASK AMPSCRIPT (In Marketing, Content Blocks)) -->
+      <!-- END CODE SNIPPET (MARKETING - CLOSED TASK AMPSCRIPT) -->
+      
+      <!-- ADD CODE SNIPPET (Marketing - Header Tracking Ampscript (In Marketing, Content Blocks)) -->
+      <!-- END CODE SNIPPET (Marketing - Header Tracking Ampscript) -->
+      
+      <!-- MJML CODE UNIQUE IDENTIFIER: XXXXXXXXX -->      
+    </mj-raw>
+  </mj-head>
+  <mj-body background-color="#FFFFFF">
+
+    <!-- BEGIN C-2.0 Copy block with single primary CTA -->
+     <mj-section css-class="text-box" padding-top="20px">
+      <mj-column css-class="hyphenation">
+        <mj-text>
+          <p>Hi <span class=eloquaemail >CU_Prospect_First_Name1</span>,</p>
+          <p>You’ve got what it takes to level up. But you don’t have to do it all on your own. If paying for your program, timing or just picking the right degree is leaving you stuck, we’re here for you.</p>
+          <p>Our enrollment specialists can help you choose a learning format that fits your schedule, navigate scholarships and find other ways to lower your tuition.</p>
+          <p>Let’s handle the details together.</p>
+        </mj-text>        
+        <mj-button css-class="hovered" href="https://www.capella.edu/contact-enrollment/?seicid=3f9c4e9d993a4058af83668a60c474bb" align="left" padding="0px 25px 10px"> Connect with us </mj-button> 
+        <mj-text>
+          <p>Sincerely,<br><span elqid="42" elqtype="signaturelayout" class="remove-absolute" style="display: block"></span></p><br><br>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- C-2.0 Copy block with single primary CTA END -->

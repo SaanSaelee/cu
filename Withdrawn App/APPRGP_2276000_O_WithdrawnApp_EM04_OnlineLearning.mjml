@@ -19,7 +19,7 @@
       .letter-s2{letter-spacing:2px !important;}
       <!-- H6 One-off headlines that are larger than the usual duck -->
     </mj-style>
-    <mj-style> 
+    <mj-style>     
     @font-face {
     font-family: "AcuminCondensedBlack"; src: 
       url("https://www.capella.edu/content/dam/sei-dam/cu/cuev/email/AcuminProCondensed_normal_condensed_900.eot"),
@@ -251,7 +251,6 @@
       <mj-column>
         <mj-text padding-top="20px" >
           <h2>Picture your next step</h2>
-          <p>Hi <span class=eloquaemail >CU_Prospect_First_Name1</span>,</p>
           <p>Online learning gives you the freedom to build skills, chase bigger goals and keep life moving. It’s not a one-size-fits-all path – just flexible, career-focused learning built for real life.</p>
           <p style="margin-top:13px;margin-bottom:0px;">Could Capella be the right fit for your next move?</p>
         </mj-text>

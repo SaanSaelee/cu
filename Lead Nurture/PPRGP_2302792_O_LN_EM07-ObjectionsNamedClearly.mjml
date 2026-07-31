@@ -5,19 +5,18 @@
     <mj-attributes>     
       <mj-section padding="0" />
       <mj-text css-class="textlink-hover" font-family="Arial,sans-serif" line-height="24px" font-size="16px" color="#000000" />
-      <mj-button css-class="hovered" font-size="16px" line-height="20px" font-weight="bold" background-color="#C10016" font-family="Arial,sans-serif" border-radius="30px" />
+      <mj-button css-class="hovered" font-size="16px" line-height="20px" font-weight="bold" background-color="#C10016" font-family="Arial,sans-serif" border-radius="50px" />
       <mj-navbar-link color="#000000" font-size="12px" line-height="18px" padding="18px 4% 18px 4%" />
     </mj-attributes>    
     <mj-style inline="inline">
-      h1{font-family: AcuminCondensedBlack,Impact,sans-serif; font-size:42px; line-height:42px; font-weight:normal; text-transform: uppercase; margin:0px;}
-      h2{font-family: AcuminCondensedBlack,Impact,sans-serif; font-size:36px; line-height:34px; font-weight:normal; text-transform: uppercase; margin:0px;}
-      h3{font-family: AcuminCondensedBlack,Impact,sans-serif; font-size:28px; line-height:26px; font-weight:normal; text-transform: uppercase; margin:0px;}
-      h4{font-family: Arial,sans-serif; font-size:24px; line-height:34px; margin:0px !important;}
-      h5{font-family: Arial,sans-serif; font-size:18px; line-height:30px; margin:0px !important;}
-      h6{font-family: AcuminCondensedBlack,Impact,sans-serif; font-size:50px; line-height:50px; font-weight:normal; text-transform: uppercase; margin:0px !important;}
-      a{color:#C10016;font-weight:bold; text-decoration:none !important;}
-      .letter-s2{letter-spacing:2px !important;}
-      <!-- H6 One-off headlines that are larger than the usual duck -->
+      h1{font-family: AcuminCondensedBlack,Impact,sans-serif; font-size:42px; line-height:38px; font-weight:normal; text-transform: uppercase; letter-spacing: -1px; margin:0px !important;}
+      h2{font-family: AcuminCondensedBlack,Impact,sans-serif; font-size:36px; line-height:34px; font-weight:normal; text-transform: uppercase; letter-spacing: -1px; margin:0px !important;}
+      h3{font-family: AcuminCondensedBlack,Impact,sans-serif; font-size:30px; line-height:28px; font-weight:normal; text-transform: uppercase; margin:0px !important;}      
+      h4{font-family: AcuminCondensedBlack,Impact,sans-serif; font-size:24px; line-height:24px; font-weight:normal; text-transform: uppercase; margin:0px !important;}
+      
+      h5{font-family:Arial,sans-serif;font-size:22px; line-height:26px;margin:0px !important;}
+      h6{font-family:Arial,sans-serif;font-size:18px; line-height:22px;margin:0px !important;}
+      a{color:#C10016;font-weight:bold; text-decoration:none;}
     </mj-style>
     <mj-style> 
     @font-face {
@@ -25,19 +24,17 @@
       url("https://www.capella.edu/content/dam/sei-dam/cu/cuev/email/AcuminProCondensed_normal_condensed_900.eot"),
       url("https://www.capella.edu/content/dam/sei-dam/cu/cuev/email/AcuminProCondensed_normal_condensed_900.eot?#iefix") format("embedded-opentype"),	      
       url("https://www.capella.edu/content/dam/sei-dam/cu/cuev/email/AcuminProCondensed_normal_condensed_900.woff2") format("woff2"),  
-      url("https://www.capella.edu/content/dam/sei-dam/cu/cuev/email/AcuminProCondensed_normal_condensed_900.woff")format("woff"),
-      url("https://www.capella.edu/content/dam/sei-dam/cu/cuev/email/AcuminProCondensed_normal_condensed_900.ttf")format("truetype"),
-      url("https://www.capella.edu/content/dam/sei-dam/cu/cuev/email/AcuminProCondensed_normal_condensed_900.svg")format("svg");
-      }  
+       url("https://www.capella.edu/content/dam/sei-dam/cu/cuev/email/AcuminProCondensed_normal_condensed_900.woff")format("woff"),
+ url("https://www.capella.edu/content/dam/sei-dam/cu/cuev/email/AcuminProCondensed_normal_condensed_900.ttf")format("truetype"),
+    url("https://www.capella.edu/content/dam/sei-dam/cu/cuev/email/AcuminProCondensed_normal_condensed_900.svg")format("svg");
+       }  
     </mj-style>         
     <mj-raw>
       <!-- Add Shared CSS for Eloqua Header BEGIN -->
       <span elqid="1558" elqtype="Section" class="remove-absolute" style="display: block"></span>
-      <!-- Add Shared CSS for Eloqua Header END -->
-
+      <!-- Add Shared CSS for Eloqua Header END -->     
     </mj-raw>
-    
-     <!-- CU Colors 
+         <!-- CU Colors 
       white{color: #ffffff !important;}
       UniversityBlack{color: #212322;}
       UniversityRed{color: #C10016}
@@ -49,6 +46,7 @@
       Light Gray{color: #F0F0EF;}
       NewCareerBlue{color: #253746;}
  -->
+    
     <mj-style>
       
       /* Prevent Android text-resizing */
@@ -119,6 +117,14 @@
       color: #B62025 !important;
       text-decoration: none !important;
       }
+      .Eyebrow div{
+      font-family:Arial,sans-serif !important;
+      font-size:12px !important;
+      line-height:22px !important;
+      letter-spacing:2px !important; 
+      text-transform: uppercase !important; 
+      font-weight:bold !important;
+      }<!-- Line-heights on this heading type needs to also be on the mj-text, to prevent it from pulling in the standard text 24px -->
       .nav-nowrap a {
       white-space: nowrap;
       }
@@ -131,9 +137,9 @@
       .appt-table td {
       border:1px solid #232323 !important;
       }
-
+      
       @media (max-width:600px) {
-      .mhidden, .mhidden table {
+      .mhidden, .mhidden table{
        display: none;
        width: 0%;
        border: 0px !important;
@@ -168,6 +174,12 @@
        margin-left: auto !important;
        margin-right:auto !important;
    	   }   
+      .mobileleft,
+      .mobileleft td div{
+       text-align: left !important;
+       margin-left: auto !important;
+       margin-right:auto !important;
+       }
       .mobilecenter,
       .mobilecenter div table {
        text-align: center !important;
@@ -189,9 +201,6 @@
        padding-left: 0px !important;	
        padding-right: 0px !important;	
 			 }
-      .padding-rounded-card {
-        padding: 0px 0px 10px !important;
-      }
       }
       
         @media (min-width:601px) {
@@ -199,7 +208,7 @@
         display: none;
         width: 0% !important;
         border: 0px !important;
-        }
+         }
         }
     </mj-style>
     <mj-raw>
@@ -209,11 +218,7 @@
       <!-- ADD CODE SNIPPET (Marketing - Header Tracking Ampscript (In Marketing, Content Blocks)) -->
       <!-- END CODE SNIPPET (Marketing - Header Tracking Ampscript) -->
       
-      <!-- MJML CODE UNIQUE IDENTIFIER: hcKUWR1Mj -->     
-
-  <!-- ****IMPORTANT: ONLY CHANGE SUBJECT LINE ONCE IT HAS BEEN UPDATED IN THE ESP -->
-  <!-- QA_VARIANT: INITIAL -->
-  <!-- SUBJECT: Take another run at your goals --> 
+      <!-- MJML CODE UNIQUE IDENTIFIER: XXXXXXXXX -->      
     </mj-raw>
   </mj-head>
   <mj-body background-color="#FFFFFF">
@@ -221,7 +226,7 @@
     <mj-section css-class="mhidden" padding="0px">
       <mj-group>
         <mj-column width="60%">
-          <mj-text align="left" font-size="12px" line-height="18px" color="#53565A"><a style="font-family: arial,sans-serif;font-weight:normal;text-decoration:underline;color:#53565A" href="https://apply.capella.edu/?seicid=ac5be7d0e246425d8bd883b395e73697"><span style="font-family: arial,sans-serif;color:#53565A;font-weight:normal;text-decoration:underline;">Take the next step. Reapply to Capella</span></a>.</mj-text>
+          <mj-text align="left" font-size="12px" line-height="18px" color="#53565A"><a style="font-family: arial,sans-serif;font-weight:normal;text-decoration:underline;color:#53565A" href="https://apply.capella.edu/?seicid=22e636bfc24a4cb3a09915fd52b098f0"><span style="font-family: arial,sans-serif;color:#53565A;font-weight:normal;text-decoration:underline;">Your ambition meets our flexibility</span></a>.</mj-text>
         </mj-column>
         <mj-column width="40%">
           <mj-text align="right" font-size="12px" line-height="18px" color="#53565A">
@@ -230,35 +235,46 @@
         </mj-column>
       </mj-group>
     </mj-section>  
-      <!-- C-1.1 Preheader END -->
-      
-    <mj-raw>
+      <!-- C-1.1 Preheader END -->      
+   <mj-raw>
       <!-- Shared Eloqua Prospect Header BEGIN -->
       <span elqid="1544" elqtype="Section" class="remove-absolute" style="display: block"></span>
       <!-- Shared Eloqua Prospect Header END -->
-    </mj-raw>
-         
+      <!-- Shared Eloqua Dynamic Scholarship Header BEGIN -->
+      <span elqid="481" elqtype="DynamicContent" class="remove-absolute" style="display: block"></span>
+      <!-- Shared Eloqua Dynamic Scholarship Header END -->
+
+     </mj-raw>         
     <!-- Standard hero BEGIN -->
     <mj-section>
       <mj-column>
-        <mj-image padding="0" alt="Portrayal of Capella online learning student seated on a couch, looking at the camera" src="https://images.elqassets.strategiced.com/EloquaImages/clients/SEIEloqua/%7B5b107a1d-68cf-4f17-b317-2c990269069f%7D_2276000_EM5_Hero_600x350_1x.png"></mj-image>
+        <mj-image padding="0" href="https://apply.capella.edu/?seicid=22e636bfc24a4cb3a09915fd52b098f0" alt="Portrayal of Capella student walking on sidewalk with briefcase and phone." src="https://images.elqassets.strategiced.com/EloquaImages/clients/SEIEloqua/%7Bb0ce19e8-4d78-435d-8b9c-78718a1b73f1%7D_2302792_EM7_600x350_1x.png"></mj-image>
       </mj-column>
     </mj-section>
     <!-- Standard hero END -->
-
     <!-- BEGIN C-2.0 Copy block with single primary CTA -->
-    <mj-section>
-      <mj-column>
-        <mj-text padding-top="20px" >
-          <h2>Recommit to your future</h2>
-          <p>You stepped away from your application. That doesn’t have to mean the journey stops here. </p>
-          <p style="margin-top:13px;margin-bottom:0px;">Now is the time to bet on yourself, and Capella is ready for you. Reapply today and keep moving toward the future you want.</p>
-        </mj-text>
-        <mj-button css-class="hovered" href="https://apply.capella.edu/?seicid=ac5be7d0e246425d8bd883b395e73697" align="left" padding="8px 25px 25px"> Reapply now </mj-button> 
+     <mj-section padding-top="20px">
+      <mj-column css-class="hyphenation">
+        <mj-text>          
+          <h2>You're busy. We’re flexible.</h2>
+          <p>Wondering how you’ll squeeze classes into an already packed schedule? At Capella, you get to choose how you learn, so school actually fits your life.</p>
+          <p style="margin-top:10px;margin-bottom:10px;">Take the lead and set your own deadlines with FlexPath, or stay on track with a structured schedule through GuidedPath. You’ve got the drive – we’ve got a path to help you earn your degree.</p>          
+        </mj-text>        
+        <mj-button css-class="hovered" href="https://apply.capella.edu/?seicid=22e636bfc24a4cb3a09915fd52b098f0" align="left" padding="0px 25px 25px">Take the next step</mj-button> 
       </mj-column>
     </mj-section>
     <!-- C-2.0 Copy block with single primary CTA END -->
-
-
+    <!--  BEGIN Secondaries: Rounded Grey Card, center aligned, 3 CTA options --> 
+     <mj-section background-color="#FFFFFF" padding="5px 25px 30px" css-class="text-box">
+      <mj-column vertical-align="top" css-class="hyphenation" background-color="#EBEBEB" border-radius="24px">
+       <mj-text padding="28px 6% 5px" align="center">
+         <h3>Got questions?<br class="dhidden"> Get answers.</h3>
+         <p style="margin-top:13px;margin-bottom:13px;">Get one-on-one guidance from an enrollment specialist who can help you put your plans into action.</p>
+        </mj-text>            
+        <mj-button css-class="ghostbtn" border="2px #C10016 solid" color="#C10016" background-color="#FFFFFF" border-radius="30px" href="https://www.capella.edu/contact-enrollment/?seicid=22e636bfc24a4cb3a09915fd52b098f0" align="center" padding="0px 0 5px" name="project#_EM#_2B_Button" inner-padding="8px 25px">Connect with us</mj-button> 
+        <mj-spacer height="25px" />    
+      </mj-column>      
+    </mj-section>
+    <!--  END Secondaries: Rounded Grey Card, center aligned, 3 CTA options -->       
   </mj-body>
 </mjml>

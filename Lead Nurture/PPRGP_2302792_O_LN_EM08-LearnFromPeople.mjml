@@ -1,0 +1,278 @@
+<mjml lang="en">
+  <mj-head>
+    <mj-title>Capella University</mj-title>
+    <mj-breakpoint width="480px" />
+    <mj-attributes>     
+      <mj-section padding="0" />
+      <mj-text css-class="textlink-hover" font-family="Arial,sans-serif" line-height="24px" font-size="16px" color="#000000" />
+      <mj-button css-class="hovered" font-size="16px" line-height="20px" font-weight="bold" background-color="#C10016" font-family="Arial,sans-serif" border-radius="50px" />
+      <mj-navbar-link color="#000000" font-size="12px" line-height="18px" padding="18px 4% 18px 4%" />
+    </mj-attributes>    
+    <mj-style inline="inline">
+      h1{font-family: AcuminCondensedBlack,Impact,sans-serif; font-size:42px; line-height:38px; font-weight:normal; text-transform: uppercase; letter-spacing: -1px; margin:0px !important;}
+      h2{font-family: AcuminCondensedBlack,Impact,sans-serif; font-size:36px; line-height:34px; font-weight:normal; text-transform: uppercase; letter-spacing: -1px; margin:0px !important;}
+      h3{font-family: AcuminCondensedBlack,Impact,sans-serif; font-size:30px; line-height:28px; font-weight:normal; text-transform: uppercase; margin:0px !important;}      
+      h4{font-family: AcuminCondensedBlack,Impact,sans-serif; font-size:24px; line-height:24px; font-weight:normal; text-transform: uppercase; margin:0px !important;}
+      
+      h5{font-family:Arial,sans-serif;font-size:22px; line-height:26px;margin:0px !important;}
+      h6{font-family:Arial,sans-serif;font-size:18px; line-height:22px;margin:0px !important;}
+      a{color:#C10016;font-weight:bold; text-decoration:none;}
+    </mj-style>
+    <mj-style> 
+    @font-face {
+    font-family: "AcuminCondensedBlack"; src: 
+      url("https://www.capella.edu/content/dam/sei-dam/cu/cuev/email/AcuminProCondensed_normal_condensed_900.eot"),
+      url("https://www.capella.edu/content/dam/sei-dam/cu/cuev/email/AcuminProCondensed_normal_condensed_900.eot?#iefix") format("embedded-opentype"),	      
+      url("https://www.capella.edu/content/dam/sei-dam/cu/cuev/email/AcuminProCondensed_normal_condensed_900.woff2") format("woff2"),  
+       url("https://www.capella.edu/content/dam/sei-dam/cu/cuev/email/AcuminProCondensed_normal_condensed_900.woff")format("woff"),
+ url("https://www.capella.edu/content/dam/sei-dam/cu/cuev/email/AcuminProCondensed_normal_condensed_900.ttf")format("truetype"),
+    url("https://www.capella.edu/content/dam/sei-dam/cu/cuev/email/AcuminProCondensed_normal_condensed_900.svg")format("svg");
+       }  
+    </mj-style>         
+    <mj-raw>
+      <!-- Add Shared CSS for Eloqua Header BEGIN -->
+      <span elqid="1558" elqtype="Section" class="remove-absolute" style="display: block"></span>
+      <!-- Add Shared CSS for Eloqua Header END -->     
+    </mj-raw>
+         <!-- CU Colors 
+      white{color: #ffffff !important;}
+      UniversityBlack{color: #212322;}
+      UniversityRed{color: #C10016}
+      UniversityGray{color: #D9D9D6;}
+      CareerBlue{color: #425563;}
+      StatBlue{color: #94B7BB;#A9C5C9;#BFD4D6;#D4E2E4;#EAF1F1}
+      FutureGlow{color: #D3BC8D;}
+      Boulder{color: #8A8D8F;}
+      Light Gray{color: #F0F0EF;}
+      NewCareerBlue{color: #253746;}
+ -->
+    
+    <mj-style>
+      
+      /* Prevent Android text-resizing */
+      * {-webkit-text-size-adjust: none;
+      }  
+      /* Prevent Apple blue links. */
+      a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+      }
+      /* Prevent Gmail blue links. */
+      u + #body a {
+      color: inherit;
+      text-decoration: none;
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit;
+      line-height: inherit;
+      }
+      /* Prevent Samsung blue links. */
+      #MessageViewBody a {
+      color: inherit;
+      text-decoration: none;
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit;
+      line-height: inherit;
+      }
+      /* Prevent Outlook from breaking words. */
+  		.hyphenation-outlook table td{
+      -moz-hyphens: none !important; 
+      -o-hyphens: none !important;
+      -webkit-hyphens: none !important;
+      -ms-hyphens: none !important;
+      hyphens: none !important;
+      mso-hyphenate: none !important;     
+      }
+      a:visited {
+      color: initial;
+      text-decoration: initial;
+      font-size: initial;
+      font-family: initial;
+      font-weight: initial;
+      line-height: initial;
+      }
+      a:hover {
+      text-decoration: underline !important;
+      }
+      .textlink-hover a:hover {
+      text-decoration: underline !important;
+      color: #8A0010 !important;
+      }
+      .lighttextlink-hover a:hover {
+      text-decoration: underline !important;
+      color: #D3BC8D !important;
+      }
+      .hovered a:hover, .hovered td:hover {
+      background: #8a0010 !important;
+      text-decoration: none !important;
+      color: #FFFFFF !important;
+      }
+      .ghostbtn a:hover, .ghostbtn td:hover {
+      background: #E6E5E5 !important;
+      color: #B62025 !important;
+      text-decoration: none !important;
+      }
+      .Eyebrow div{
+      font-family:Arial,sans-serif !important;
+      font-size:12px !important;
+      line-height:22px !important;
+      letter-spacing:2px !important; 
+      text-transform: uppercase !important; 
+      font-weight:bold !important;
+      }<!-- Line-heights on this heading type needs to also be on the mj-text, to prevent it from pulling in the standard text 24px -->
+      .nav-nowrap a {
+      white-space: nowrap;
+      }
+      .icon-group table td{
+      padding: 5px !important;
+      }      
+      .iconbox-height{
+      height: 160px;
+      }
+      .appt-table td {
+      border:1px solid #232323 !important;
+      }
+      
+      @media (max-width:600px) {
+      .mhidden, .mhidden table{
+       display: none;
+       width: 0%;
+       border: 0px !important;
+       }
+      .mnavlogo{ 
+       width: 100% !important;
+       border: 0px !important;
+       }
+      .claimdirection div{
+       text-align:left !important;
+       padding:30px 0 0 25px;
+       }
+      .navcenter table {
+       text-align: center !important;
+       margin-left: auto !important;
+       margin-right:auto !important;
+       width: 100% !important; 
+     	 } 
+      .mobile-logo img{
+       width: 200px !important;      
+       margin-left: auto !important;
+       margin-right:auto !important;
+       padding: 10px 0px 10px
+    	 }
+      .mobilepadding {       
+       padding-left: 25px !important;
+       padding-right: 25px !important;
+       }
+      .icon-size img{
+       width:46px !important; 
+       height:46px !important;
+       margin-left: auto !important;
+       margin-right:auto !important;
+   	   }   
+      .mobileleft,
+      .mobileleft td div{
+       text-align: left !important;
+       margin-left: auto !important;
+       margin-right:auto !important;
+       }
+      .mobilecenter,
+      .mobilecenter div table {
+       text-align: center !important;
+       margin-left: auto !important;
+       margin-right:auto !important;
+       }
+      .textcenter div {
+       text-align: center !important;
+       margin-left: auto !important;
+       margin-right:auto !important;
+       }
+      .text-box td.textlink-hover,
+      .text-box td td.hovered,
+      .text-box td.ghostbtn{
+       padding-left: 15px !important;
+       padding-right:15px !important; 
+       }
+      .no-padding-mobile td {       
+       padding-left: 0px !important;	
+       padding-right: 0px !important;	
+			 }
+      }
+      
+        @media (min-width:601px) {
+        .dhidden {
+        display: none;
+        width: 0% !important;
+        border: 0px !important;
+         }
+        }
+    </mj-style>
+    <mj-raw>
+      <!-- ADD CODE SNIPPET (MARKETING - CLOSED TASK AMPSCRIPT (In Marketing, Content Blocks)) -->
+      <!-- END CODE SNIPPET (MARKETING - CLOSED TASK AMPSCRIPT) -->
+      
+      <!-- ADD CODE SNIPPET (Marketing - Header Tracking Ampscript (In Marketing, Content Blocks)) -->
+      <!-- END CODE SNIPPET (Marketing - Header Tracking Ampscript) -->
+      
+      <!-- MJML CODE UNIQUE IDENTIFIER: cPpJGy7E-X -->      
+    </mj-raw>
+  </mj-head>
+  <mj-body background-color="#FFFFFF">
+    <!-- C-1.1 Eloqua Preheader BEGIN -->
+    <mj-section css-class="mhidden" padding="0px">
+      <mj-group>
+        <mj-column width="60%">
+          <mj-text align="left" font-size="12px" line-height="18px" color="#53565A"><a style="font-family: arial,sans-serif;font-weight:normal;text-decoration:underline;color:#53565A" href="https://www.capella.edu/capella-experience/support/capella-faculty/?seicid=aa4d1f736b3c4ec1af80e47d589b955c"><span style="font-family: arial,sans-serif;color:#53565A;font-weight:normal;text-decoration:underline;">Learning shaped by industry leaders</span></a>.</mj-text>
+        </mj-column>
+        <mj-column width="40%">
+          <mj-text align="right" font-size="12px" line-height="18px" color="#53565A">
+            <a style="color:#939598;font-weight:normal;text-decoration:underline;" href="https://app.elqassets.strategiced.com/e/es?s=~~eloqua..type--emailfield..syntax--siteid..encodeFor--url~~&e=~~eloqua..type--emailfield..syntax--elqemailsaveguid..encodeFor--url~~"><span style="color:#53565A;font-weight:normal;text-decoration:underline;">View in browser</span></a>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>  
+      <!-- C-1.1 Preheader END -->      
+   <mj-raw>
+      <!-- Shared Eloqua Prospect Header BEGIN -->
+      <span elqid="1544" elqtype="Section" class="remove-absolute" style="display: block"></span>
+      <!-- Shared Eloqua Prospect Header END -->
+
+     </mj-raw>         
+    <!-- Standard hero BEGIN -->
+    <mj-section>
+      <mj-column>
+        <mj-image padding="0" href="https://apply.capella.edu/?seicid=aa4d1f736b3c4ec1af80e47d589b955c" alt="Portrayal of a Capella University online business
+student standing in a conference room." src="https://images.elqassets.strategiced.com/EloquaImages/clients/SEIEloqua/%7B3b4c03b0-0194-4c42-aca0-25470c4d2cee%7D_2302792_EM8_600x350_1x.png"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!-- Standard hero END -->
+    <!-- BEGIN C-2.0 Copy block with single primary CTA -->
+     <mj-section padding-top="20px">
+      <mj-column css-class="hyphenation">
+        <mj-text>          
+          <h2>Real experience. Real impact. Real impact.</h2>
+          <p>You’ve built a great foundation. Take it to the next level by learning directly from industry experts.</p>
+          <p style="margin-top:10px;margin-bottom:10px;">Our faculty don’t just teach. They bring their real-world insights into the courseroom, so you can build the skills employers are actually looking for.</p>          
+        </mj-text>        
+        <mj-button css-class="hovered" href="https://apply.capella.edu/?seicid=aa4d1f736b3c4ec1af80e47d589b955c" align="left" padding="0px 25px 25px">Gain in-demand skills</mj-button> 
+      </mj-column>
+    </mj-section>
+    <!-- C-2.0 Copy block with single primary CTA END -->
+    <!--  BEGIN Secondaries: Rounded Grey Card, center aligned, 3 CTA options --> 
+     <mj-section background-color="#FFFFFF" padding="5px 25px 30px" css-class="text-box">
+      <mj-column vertical-align="top" css-class="hyphenation" background-color="#EBEBEB" border-radius="24px">
+       <mj-text padding="28px 6% 5px" align="center">
+         <h3>Meet our faculty</h3>
+         <p style="margin-top:13px;margin-bottom:13px;">Get to know the field-tested professionals who will be guiding your education.</p>
+        </mj-text>            
+        <mj-button css-class="ghostbtn" border="2px #C10016 solid" color="#C10016" background-color="#FFFFFF" border-radius="30px" href="https://www.capella.edu/capella-experience/support/capella-faculty/?seicid=aa4d1f736b3c4ec1af80e47d589b955c" align="center" padding="0px 0 5px" name="project#_EM#_2B_Button" inner-padding="8px 25px">See our faculty</mj-button> 
+        <mj-spacer height="25px" />    
+      </mj-column>      
+    </mj-section>
+    <!--  END Secondaries: Rounded Grey Card, center aligned, 3 CTA options -->       
+  </mj-body>
+</mjml>

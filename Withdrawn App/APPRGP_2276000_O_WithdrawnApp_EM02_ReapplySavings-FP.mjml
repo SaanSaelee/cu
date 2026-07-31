@@ -19,7 +19,7 @@
       .letter-s2{letter-spacing:2px !important;}
       <!-- H6 One-off headlines that are larger than the usual duck -->
     </mj-style>
-    <mj-style> 
+    <mj-style>  
     @font-face {
     font-family: "AcuminCondensedBlack"; src: 
       url("https://www.capella.edu/content/dam/sei-dam/cu/cuev/email/AcuminProCondensed_normal_condensed_900.eot"),
@@ -29,7 +29,7 @@
       url("https://www.capella.edu/content/dam/sei-dam/cu/cuev/email/AcuminProCondensed_normal_condensed_900.ttf")format("truetype"),
       url("https://www.capella.edu/content/dam/sei-dam/cu/cuev/email/AcuminProCondensed_normal_condensed_900.svg")format("svg");
       }  
-    </mj-style>         
+    </mj-style>          
     <mj-raw>
       <!-- Add Shared CSS for Eloqua Header BEGIN -->
       <span elqid="1558" elqtype="Section" class="remove-absolute" style="display: block"></span>
@@ -198,7 +198,7 @@
         .dhidden {
         display: none;
         width: 0% !important;
-        border: 0px !important;
+        border: 0px !important; 
         }
         }
     </mj-style>
@@ -209,19 +209,19 @@
       <!-- ADD CODE SNIPPET (Marketing - Header Tracking Ampscript (In Marketing, Content Blocks)) -->
       <!-- END CODE SNIPPET (Marketing - Header Tracking Ampscript) -->
       
-      <!-- MJML CODE UNIQUE IDENTIFIER: uN6c6nL050 -->  
+      <!-- MJML CODE UNIQUE IDENTIFIER: PW0QDNojr2 -->      
 
   <!-- ****IMPORTANT: ONLY CHANGE SUBJECT LINE ONCE IT HAS BEEN UPDATED IN THE ESP -->
   <!-- QA_VARIANT: INITIAL -->
-  <!-- SUBJECT: Still interested in a Capella degree? -->    
+  <!-- SUBJECT: The path forward is still yours -->
     </mj-raw>
   </mj-head>
-  <mj-body background-color="#FFFFFF">  
+  <mj-body background-color="#FFFFFF"> 
     <!-- C-1.1 Eloqua Preheader BEGIN -->
     <mj-section css-class="mhidden" padding="0px">
-      <mj-group> 
+      <mj-group>
         <mj-column width="60%">
-          <mj-text align="left" font-size="12px" line-height="18px" color="#53565A"><a style="font-family: arial,sans-serif;font-weight:normal;text-decoration:underline;color:#53565A" href="https://www.capella.edu/tuition-financial-aid/scholarships-grants/?seicid=2633f9f22ca946c9a01f3b0fd01dc1c5"><span style="font-family: arial,sans-serif;color:#53565A;font-weight:normal;text-decoration:underline;">Find ways to save on your Capella degree</span></a>.</mj-text>
+          <mj-text align="left" font-size="12px" line-height="18px" color="#53565A"><a style="font-family: arial,sans-serif;font-weight:normal;text-decoration:underline;color:#53565A" href="https://www.capella.edu/tuition-financial-aid/scholarships-grants/?seicid=87dd145291fc4df68669cdee2a56c04b"><span style="font-family: arial,sans-serif;color:#53565A;font-weight:normal;text-decoration:underline;">Find ways to save on your Capella degree</span></a>.</mj-text>
         </mj-column>
         <mj-column width="40%">
           <mj-text align="right" font-size="12px" line-height="18px" color="#53565A">
@@ -241,7 +241,7 @@
     <!-- Standard hero BEGIN -->
     <mj-section>
       <mj-column>
-        <mj-image padding="0" alt="Portrayal of Capella online student seated at a desk and taking notes." src="https://images.elqassets.strategiced.com/EloquaImages/clients/SEIEloqua/%7Bb0ae8613-0707-40c6-b05e-c6e62a3b40ea%7D_2276000_EM2_Hero_600x350_1x.png"></mj-image>
+        <mj-image padding="0" alt="Portrayal of Capella online student with arms folded, facing the camera." src="https://images.elqassets.strategiced.com/EloquaImages/clients/SEIEloqua/%7B11df00b5-5c83-4eb9-bf48-c4fa0bd99bbf%7D_2276000_EM2_FP-Hero_600x350_1x.png"></mj-image>
       </mj-column>
     </mj-section>
     <!-- Standard hero END -->
@@ -253,10 +253,11 @@
           <h2>Your goals are still within reach</h2>
           <p>Hi <span class=eloquaemail >CU_Prospect_First_Name1</span>,</p>
           <p>We saw you stepped away from your application, but you started for a reason. </p>
-          <p>Your degree isn’t just about today – it’s about building what comes next. At Capella, we’ll help you find affordable ways to keep moving forward. </p>
+          <p>Your degree isn’t just about today – it’s about building what comes next. </p>
+          <p>At Capella, we’ll help you find flexible and affordable ways to keep moving forward. Our FlexPath learning format lets you take one or two courses at a time and complete as many as you can in 12 weeks for one flat tuition rate. Books, supplies and other fees apply.</p>
           <p style="margin-top:13px;margin-bottom:0px;">Your goals are still there. So is your next step.</p>
         </mj-text>
-        <mj-button css-class="hovered" href="https://apply.capella.edu/?seicid=2633f9f22ca946c9a01f3b0fd01dc1c5" align="left" padding="8px 25px 25px"> Reapply today </mj-button> 
+        <mj-button css-class="hovered" href="https://apply.capella.edu/?seicid=87dd145291fc4df68669cdee2a56c04b" align="left" padding="8px 25px 25px"> Reapply today </mj-button> 
       </mj-column>
     </mj-section>
     <!-- C-2.0 Copy block with single primary CTA END -->

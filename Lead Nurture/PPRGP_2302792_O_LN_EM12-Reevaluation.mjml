@@ -5,19 +5,18 @@
     <mj-attributes>     
       <mj-section padding="0" />
       <mj-text css-class="textlink-hover" font-family="Arial,sans-serif" line-height="24px" font-size="16px" color="#000000" />
-      <mj-button css-class="hovered" font-size="16px" line-height="20px" font-weight="bold" background-color="#C10016" font-family="Arial,sans-serif" border-radius="30px" />
+      <mj-button css-class="hovered" font-size="16px" line-height="20px" font-weight="bold" background-color="#C10016" font-family="Arial,sans-serif" border-radius="50px" />
       <mj-navbar-link color="#000000" font-size="12px" line-height="18px" padding="18px 4% 18px 4%" />
     </mj-attributes>    
     <mj-style inline="inline">
-      h1{font-family: AcuminCondensedBlack,Impact,sans-serif; font-size:42px; line-height:42px; font-weight:normal; text-transform: uppercase; margin:0px !important;}
-      h2{font-family: AcuminCondensedBlack,Impact,sans-serif; font-size:28px; line-height:28px; font-weight:normal; text-transform: uppercase; margin:0px !important;}
-      h3{font-family: Arial,sans-serif; font-size:28px; line-height:38px; margin:0px !important;}
-      h4{font-family: Arial,sans-serif; font-size:24px; line-height:34px; margin:0px !important;}
-      h5{font-family: Arial,sans-serif; font-size:18px; line-height:30px; margin:0px !important;}
-      h6{font-family: AcuminCondensedBlack,Impact,sans-serif; font-size:50px; line-height:50px; font-weight:normal; text-transform: uppercase; margin:0px !important;}
-      a{color:#C10016;font-weight:bold; text-decoration:none !important;}
-      .letter-s2{letter-spacing:2px !important;}
-      <!-- H6 One-off headlines that are larger than the usual duck -->
+      h1{font-family: AcuminCondensedBlack,Impact,sans-serif; font-size:42px; line-height:38px; font-weight:normal; text-transform: uppercase; letter-spacing: -1px; margin:0px !important;}
+      h2{font-family: AcuminCondensedBlack,Impact,sans-serif; font-size:36px; line-height:34px; font-weight:normal; text-transform: uppercase; letter-spacing: -1px; margin:0px !important;}
+      h3{font-family: AcuminCondensedBlack,Impact,sans-serif; font-size:30px; line-height:28px; font-weight:normal; text-transform: uppercase; margin:0px !important;}      
+      h4{font-family: AcuminCondensedBlack,Impact,sans-serif; font-size:24px; line-height:24px; font-weight:normal; text-transform: uppercase; margin:0px !important;}
+      
+      h5{font-family:Arial,sans-serif;font-size:22px; line-height:26px;margin:0px !important;}
+      h6{font-family:Arial,sans-serif;font-size:18px; line-height:22px;margin:0px !important;}
+      a{color:#C10016;font-weight:bold; text-decoration:none;}
     </mj-style>
     <mj-style> 
     @font-face {
@@ -33,11 +32,9 @@
     <mj-raw>
       <!-- Add Shared CSS for Eloqua Header BEGIN -->
       <span elqid="1558" elqtype="Section" class="remove-absolute" style="display: block"></span>
-      <!-- Add Shared CSS for Eloqua Header END -->
-
+      <!-- Add Shared CSS for Eloqua Header END -->     
     </mj-raw>
-    
-     <!-- CU Colors 
+         <!-- CU Colors 
       white{color: #ffffff !important;}
       UniversityBlack{color: #212322;}
       UniversityRed{color: #C10016}
@@ -49,6 +46,7 @@
       Light Gray{color: #F0F0EF;}
       NewCareerBlue{color: #253746;}
  -->
+    
     <mj-style>
       
       /* Prevent Android text-resizing */
@@ -119,6 +117,14 @@
       color: #B62025 !important;
       text-decoration: none !important;
       }
+      .Eyebrow div{
+      font-family:Arial,sans-serif !important;
+      font-size:12px !important;
+      line-height:22px !important;
+      letter-spacing:2px !important; 
+      text-transform: uppercase !important; 
+      font-weight:bold !important;
+      }<!-- Line-heights on this heading type needs to also be on the mj-text, to prevent it from pulling in the standard text 24px -->
       .nav-nowrap a {
       white-space: nowrap;
       }
@@ -131,9 +137,9 @@
       .appt-table td {
       border:1px solid #232323 !important;
       }
-
+      
       @media (max-width:600px) {
-      .mhidden, .mhidden table {
+      .mhidden, .mhidden table{
        display: none;
        width: 0%;
        border: 0px !important;
@@ -168,6 +174,12 @@
        margin-left: auto !important;
        margin-right:auto !important;
    	   }   
+      .mobileleft,
+      .mobileleft td div{
+       text-align: left !important;
+       margin-left: auto !important;
+       margin-right:auto !important;
+       }
       .mobilecenter,
       .mobilecenter div table {
        text-align: center !important;
@@ -206,19 +218,15 @@
       <!-- ADD CODE SNIPPET (Marketing - Header Tracking Ampscript (In Marketing, Content Blocks)) -->
       <!-- END CODE SNIPPET (Marketing - Header Tracking Ampscript) -->
       
-      <!-- MJML CODE UNIQUE IDENTIFIER: yLlxfmH9N -->       
-  
-  <!-- ****IMPORTANT: ONLY CHANGE SUBJECT LINE ONCE IT HAS BEEN UPDATED IN THE ESP -->
-  <!-- QA_VARIANT: INITIAL -->
-  <!-- SUBJECT: Your application has been withdrawn -->
+      <!-- MJML CODE UNIQUE IDENTIFIER: RVzenFfaai -->      
     </mj-raw>
   </mj-head>
-  <mj-body background-color="#FFFFFF"> 
+  <mj-body background-color="#FFFFFF">
     <!-- C-1.1 Eloqua Preheader BEGIN -->
     <mj-section css-class="mhidden" padding="0px">
       <mj-group>
         <mj-column width="60%">
-          <mj-text align="left" font-size="12px" line-height="18px" color="#53565A"><a style="font-family: arial,sans-serif;font-weight:normal;text-decoration:underline;color:#53565A" href="https://www.capella.edu/contact-us/?seicid=754284e83aa14f12b0f8d8c9c546a1b3"><span style="font-family: arial,sans-serif;color:#53565A;font-weight:normal;text-decoration:underline;">Contact us if you have questions</span></a>.</mj-text>
+          <mj-text align="left" font-size="12px" line-height="18px" color="#53565A"><a style="font-family: arial,sans-serif;font-weight:normal;text-decoration:underline;color:#53565A" href="https://www.capella.edu/contact-enrollment/?seicid=36dc7cf47be647f28d3cd7da28c67bb0"><span style="font-family: arial,sans-serif;color:#53565A;font-weight:normal;text-decoration:underline;">Keep your momentum going</span></a>.</mj-text>
         </mj-column>
         <mj-column width="40%">
           <mj-text align="right" font-size="12px" line-height="18px" color="#53565A">
@@ -227,28 +235,47 @@
         </mj-column>
       </mj-group>
     </mj-section>  
-      <!-- C-1.1 Preheader END -->
-      
-    <mj-raw>
+      <!-- C-1.1 Preheader END -->      
+   <mj-raw>
       <!-- Shared Eloqua Prospect Header BEGIN -->
       <span elqid="1544" elqtype="Section" class="remove-absolute" style="display: block"></span>
       <!-- Shared Eloqua Prospect Header END -->
-    </mj-raw>
-         
+      <!-- Shared Eloqua Dynamic Scholarship Header BEGIN -->
+      <span elqid="481" elqtype="DynamicContent" class="remove-absolute" style="display: block"></span>
+      <!-- Shared Eloqua Dynamic Scholarship Header END -->
 
-       <!-- BEGIN C-2.0 Copy block with single primary CTA -->
-    <mj-section css-class="text-box">
+     </mj-raw>         
+    <!-- Standard hero BEGIN -->
+    <mj-section>
       <mj-column>
-        <mj-text padding-top="20px">
-          <h1>Application status update</h1>
-          <p>Hi <span class=eloquaemail >CU_Prospect_First_Name1</span>,</p>
-          <p>We’re reaching out to let you know that your application has been withdrawn. </p>
-          <p style="margin-top:13px;margin-bottom:0px;">If you’re still interested in a Capella degree or have questions, your enrollment specialist is ready to help you move forward.</p>
-        </mj-text>
-        <mj-button css-class="hovered" href="https://www.capella.edu/contact-us/?seicid=754284e83aa14f12b0f8d8c9c546a1b3" align="left" padding="8px 25px 25px"> Contact us </mj-button> 
+        <mj-image padding="0" href="https://apply.capella.edu/?seicid=36dc7cf47be647f28d3cd7da28c67bb0" alt="Portrayal of a Capella student in a hallway or
+sky-way with large windows." src="https://images.elqassets.strategiced.com/EloquaImages/clients/SEIEloqua/%7B89e18d54-3209-4be8-a86b-f9987122558c%7D_2302792_EM12_600x350_1x.png"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!-- Standard hero END -->
+    <!-- BEGIN C-2.0 Copy block with single primary CTA -->
+     <mj-section padding-top="20px">
+      <mj-column css-class="hyphenation">
+        <mj-text>          
+          <h2>The ‘right time’ is now</h2>
+          <p>When life moves fast, your goals may evolve. If you took a break to think about your next step, you’re not alone. But, now’s the perfect time to pursue a degree that matches your ambitions.</p>
+          <p style="margin-top:10px;margin-bottom:10px;">Chat with an enrollment specialist today and plan your next move.</p>          
+        </mj-text>        
+        <mj-button css-class="hovered" href="https://www.capella.edu/contact-enrollment/?seicid=36dc7cf47be647f28d3cd7da28c67bb0" align="left" padding="0px 25px 25px">Let’s connect</mj-button> 
       </mj-column>
     </mj-section>
     <!-- C-2.0 Copy block with single primary CTA END -->
-
+    <!--  BEGIN Secondaries: Rounded Grey Card, center aligned, 3 CTA options --> 
+     <mj-section background-color="#FFFFFF" padding="5px 25px 30px" css-class="text-box">
+      <mj-column vertical-align="top" css-class="hyphenation" background-color="#EBEBEB" border-radius="24px">
+       <mj-text padding="28px 6% 5px" align="center">
+         <h3>Turn your ambition into action.</h3>
+         <p style="margin-top:13px;margin-bottom:13px;">Start your application today – there’s no fee.</p>
+        </mj-text>            
+        <mj-button css-class="ghostbtn" border="2px #C10016 solid" color="#C10016" background-color="#FFFFFF" border-radius="30px" href="https://apply.capella.edu/?seicid=36dc7cf47be647f28d3cd7da28c67bb0" align="center" padding="0px 0 5px" name="project#_EM#_2B_Button" inner-padding="8px 25px">Apply now</mj-button> 
+        <mj-spacer height="25px" />    
+      </mj-column>      
+    </mj-section>
+    <!--  END Secondaries: Rounded Grey Card, center aligned, 3 CTA options -->       
   </mj-body>
 </mjml>
