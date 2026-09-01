@@ -1,0 +1,221 @@
+<mjml lang="en">
+  <mj-head>
+    <mj-breakpoint width="480px" />
+    <mj-attributes>
+      <mj-text css-class="textlink-hover" font-family="Arial,sans-serif" line-height="24px" font-size="16px" color="#000000" />
+      <mj-section padding="0" background-color="white" />
+      <mj-navbar-link color="#000000" font-size="12px" line-height="18px" padding="18px 4% 18px 4%" />
+      <mj-font name="Lato" href="https://fonts.googleapis.com/css?family=Lato:400,700,900" />
+      <mj-button css-class="hovered" font-size="16px" line-height="20px" font-weight="bold" background-color="#C10016" font-family="Lato, Arial,sans-serif" border-radius="5px"/>
+    </mj-attributes>
+    <mj-style inline="inline">
+      h1{font-family: Lato, Arial,sans-serif; font-size:34px; line-height:44px; margin: 0px;}
+      h2{font-family: Lato, Arial,sans-serif; font-size:30px; line-height:40px; margin: 0px !important;}
+      h3{font-family: Lato, Arial,sans-serif; font-size:26px; line-height:36px; margin: 0px !important;}
+      h4{font-family: Lato, Arial,sans-serif; font-size:22px; line-height:32px; margin: 0px !important;}
+      h5{font-family: Lato, Arial,sans-serif; font-size:18px; line-height:28px; margin: 0px !important;}
+      h6{font-family: Lato, Arial,sans-serif; font-size:16px; line-height:28px; font-weight: bold; margin: 0;}
+       a {}
+      .letter-s2{letter-spacing:2px;}
+    </mj-style>
+    
+   
+    <!-- CU Colors 
+      white{color: #ffffff !important;}
+      UniversityBlack{color: #212322;}
+      UniversityRed{color: #C10016}
+      UniversityGray{color: #D9D9D6;}
+      CareerBlue{color: #425563;}
+      StatBlue{color: #94B7BB;}
+      FutureGlow{color: #D3BC8D;}
+      Boulder{color: #8A8D8F;}
+      Light Gray{color: #F0F0EF;}
+      NewCareerBlue{color: #253746;}
+ -->
+    <mj-style>
+
+      /* Prevent Apple blue links. */
+      a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+      }
+      /* Prevent Gmail blue links. */
+      u + #body a {
+      color: inherit;
+      text-decoration: none;
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit;
+      line-height: inherit;
+      }
+      /* Prevent Samsung blue links. */
+      #MessageViewBody a {
+      color: inherit;
+      text-decoration: none;
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit;
+      line-height: inherit;
+      }
+      
+      a:visited {
+      color: initial;
+      text-decoration: initial;
+      font-size: initial;
+      font-family: initial;
+      font-weight: initial;
+      line-height: initial;
+      }
+      a:hover {
+      text-decoration: underline !important;
+      }
+      .textlink-hover a:hover {
+      text-decoration: underline !important;
+      color: #8A0010 !important;
+      }
+			.lighttextlink-hover a:hover {
+			text-decoration: underline !important;
+      color: #D3BC8D !important;
+			}   
+      .hovered a:hover, .hovered td:hover {
+      background: #8a0010 !important;
+      text-decoration: none !important;
+      color: #FFFFFF !important;
+      }
+      .ghostbtn a:hover, .ghostbtn td:hover {
+      background: #E6E5E5 !important;
+      color: #B62025 !important;      
+      text-decoration: none !important;
+      }
+      .nav-nowrap a {
+      white-space: nowrap;
+      }
+      .hyphenation-outlook table td{
+      -moz-hyphens: none !important; 
+      -o-hyphens: none !important;
+      -webkit-hyphens: none !important;
+      -ms-hyphens: none !important;
+      hyphens: none !important;
+      mso-hyphenate: none !important;     
+      }
+      .icon-group table table td{
+      padding: 5px !important;
+      }
+      .iconbox-height{
+      height: 190px;
+      }
+      .appt-table td {
+      border:1px solid #232323 !important;
+      }
+	      
+      @media (max-width:600px) {
+        .mhidden, .mhidden table {
+        display: none;
+        width: 0%;
+        border: 0px !important;
+        }
+        .claimdirection div{
+        text-align:left !important;
+        padding:30px 0 0 25px;
+        }
+        .navcenter table {
+        text-align: center !important;
+        margin-left: auto !important;
+        margin-right:auto !important;
+ 				width: 100% !important; 
+ 		    padding: 0px 5px !important;
+   		  align:center !important;
+     		 } 
+       .mobile-logo img{
+      	width: 200px !important;      
+        margin-left: auto !important;
+        margin-right:auto !important;
+    	  padding: 10px 0px 10px
+    	  }
+				.mobilepadding {       
+        padding-left: 25px !important;
+				padding-right: 25px !important;
+				}
+       .icon-size img{
+   	   width:46px !important; 
+   	   height:46px !important;
+   	   margin-left: auto !important;
+    	 margin-right:auto !important;
+   	   }   
+       .mobilecenter,
+       .mobilecenter div{
+       text-align: center !important;
+       margin-left: auto !important;
+       margin-right:auto !important;
+       }
+      .text-box td.textlink-hover,
+      .text-box td td.hovered,
+      .text-box td.ghostbtn{
+     	padding-left: 15px !important;
+     	padding-right:15px !important; 
+      }
+     .no-padding-mobile td {       
+     padding-left: 0px !important;	
+   	 padding-right: 0px !important;	
+				}
+      }
+
+      @media (min-width:601px) {
+        .dhidden {
+        display: none;
+        width: 0% !important;
+        border: 0px !important;
+        }
+      }  
+    </mj-style>
+  </mj-head>
+
+  <mj-body>
+<!-- BEGIN SFMC Copy Block 100% width -->
+   <mj-column>
+    <mj-text>
+      <p style="text-transform:capitalize;">Hi %%Preferred_Name__c%%,</p>
+      <p>I saw you started a Capella application – good work taking that first step.</p>
+      <p>If you have questions or need help along the way, I’m here for you. I can guide you through the application process, help you explore options and get you started on your program. </p>
+      <p>Have any questions before you apply? Just reply to this email. Or, if you’re ready, go ahead and <a style="text-decoration:underline;" href="https://apply.capella.edu/login/?seicid=f44e26848033416fa89f0765165c1bd2">finish your application</a> today – there’s no fee. </p>
+      <p>Best regards, </p>
+     </mj-text>   
+    </mj-column>  
+<!-- END SFMC Copy Block 100% width -->
+
+    <!-- BEGIN Promotional ES left-aligned Signature in SFMC-->
+      <mj-column padding="0" css-class="text-box">
+       <mj-text font-size="14px" padding="0 25px">
+         <span style="font-family:arial,sans-serif;font-size:16px;line-height:24px;text-align:left;color:#000000;">%%=v(@EC_Name)=%%%%=v(@EC_Degree_Concat)=%%%%=v(@Pronouns_Break)=%% %%=v(@EC_Pronouns)=%%</span>
+           %%=v(@ECRole_HTML)=%%, <span style="color: #C10016; font-weight: bold;">Capella&nbsp;University</span><br />            
+           Email: <a href="mailto:%%=v(@EC_Email)=%%">%%=v(@EC_Email)=%%</a><br /> 
+           Phone: <a href="tel:%%=v(@EC_Phone)=%%" style="text-decoration: underline; font-weight: normal;">%%=v(@EC_Phone)=%%</a>%%=v(@Appt_HTML)=%%<br />
+           Text: <a style="font-weight: normal; text-decoration: underline;" href="sms:18839413022">1-833-941-3022</a> or <a style="font-weight: normal; text-decoration: underline;" href="https://campus.capella.edu/my-capella/personal-information/text-messaging"> Opt&nbsp;In&nbsp;To&nbsp;Text</a><br />
+        </mj-text>
+        <mj-image align="left" padding="20px 25px 15px"  src="https://www.capella.edu/content/dam/email-sei/capella/EmailLogoCapellaUniversity_07082025.png" href="https://www.capella.edu/" alt="Capella University" width="200px" height="45px"></mj-image>
+        <mj-text padding="0 25px" font-size="14px">               
+           <a style="font-size: 14px; font-weight: normal; text-decoration: underline;" href="https://www.capella.edu/privacy-policy/">Privacy Policy</a><br />
+           <a style="font-size: 14px; font-weight: normal; text-decoration: underline;" href="%%unsub_center_url%%">Unsubscribe from our promotional&nbsp;emails</a>
+          <p style="font-size: 14px;margin-top:10px;margin-bottom:5px">%%Member_Addr%%, %%Member_City%%, %%Member_State%% %%Member_PostalCode%%, %%Member_Country%%</p>
+          <p style="font-size: 14px;margin:0px;">Capella University&nbsp; &copy; %%=v(@CurrentYear)=%% All Rights Reserved</p>
+        </mj-text>      
+      </mj-column>
+
+  <!-- Promotional ES left-aligned Signature in SFMC END -->
+                   
+  <!-- wide SFMC ES promotional signature BEGIN--> 
+  <mj-raw>
+%%=ContentBlockbyID("70545")=%%   
+  </mj-raw>  
+<!-- wide SFMC ES promotional signature END --> 
+    <!-- SFMC HTML Track Opens BEGIN -->
+    <mj-raw>
+    <custom name="opencounter" type="tracking"/><custom name="usermatch" type="tracking"/>
+    </mj-raw>
+<!--SFMC HTML Track Opens END -->   
+  </mj-body>
+</mjml>
