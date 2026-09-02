@@ -347,7 +347,7 @@ for online classes." src="https://image.learner.capella.edu/lib/fe3411717164047a
 
 
     <!-- BEGIN C-2.0 Copy block with single primary CTA -->
-     <mj-section css-class="text-box">
+     <mj-section>
       <mj-column css-class="hyphenation">
         <mj-text>
           <p style="text-transform:capitalize;">Hi %%Preferred_Name__c%%,</p>
@@ -361,7 +361,7 @@ for online classes." src="https://image.learner.capella.edu/lib/fe3411717164047a
   <!-- C-2.0 Copy block with single primary CTA END -->
 
       <!-- BEGIN Section Headline -->
-    <mj-section padding="0" background-color="#F0F0EF" css-class="text-box">
+    <mj-section padding="0" background-color="#F0F0EF">
       <mj-column>
         <mj-text align="center" padding="40px 25px 0px">
           <h3>Frequently asked questions</h3> 
@@ -408,7 +408,7 @@ for online classes." src="https://image.learner.capella.edu/lib/fe3411717164047a
   <!-- End Secondaries: Rounded Card on Grey, left aligned -->
 
       <!--  BEGIN Secondaries: Rounded Grey Card, center aligned, 3 CTA options --> 
-     <mj-section background-color="#FFFFFF" padding="25px 25px 15px" css-class="text-box">
+     <mj-section background-color="#FFFFFF" padding="25px 25px 15px">
       <mj-column vertical-align="top" css-class="hyphenation" background-color="#707070" border-radius="24px">
        <mj-text padding="28px 6% 5px" align="center">
          <h3 style="color:#FFFFFF;">Questions? Let’s tackle them.</h3>
@@ -418,6 +418,14 @@ for online classes." src="https://image.learner.capella.edu/lib/fe3411717164047a
       </mj-column>      
     </mj-section>
     <!--  END Secondaries: Rounded Grey Card, center aligned, 3 CTA options -->    
+
+  <!--  BEGIN Spacer -->    
+    <mj-section>
+      <mj-column>
+        <mj-spacer height="25px" />
+      </mj-column>
+    </mj-section>
+  <!-- End Spacer -->
 
        <mj-raw>
       <!-- SFMC HTML Track Opens BEGIN -->

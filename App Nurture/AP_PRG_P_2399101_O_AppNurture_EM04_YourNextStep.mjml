@@ -240,21 +240,6 @@
     </mj-section>
     <!-- C-1.1 Salesforce Preheader END -->      
 
-        <!-- C-1.1 Salesforce Preheader BEGIN delete the <a> if there is no link -->
-    <mj-section css-class="mhidden" padding="0px">
-      <mj-group>
-        <mj-column width="60%">
-          <mj-text align="left" font-size="12px" line-height="18px" color="#53565A"><a style="font-family: arial,sans-serif;font-weight:normal;text-decoration:underline;color:#53565A" href="https://apply.capella.edu/login/?seicid=5ebcb67fb11043dfa0874732dfa20c8f"><span style="font-family: arial,sans-serif;color:#53565A;font-weight:normal;text-decoration:none;">Pick up your Capella application</span></a>.
-          </mj-text>
-        </mj-column>
-         <mj-column width="40%">
-          <mj-text align="right" font-size="12px" line-height="15px" color="#53565A">
-            <a style="color:#53565A;font-weight:normal;text-decoration:underline;" href="%%view_email_url%%"><span style="color:#53565A;font-weight:normal;text-decoration:underline;">View in browser</span></a>
-          </mj-text>
-        </mj-column>
-      </mj-group>
-    </mj-section>
-    <!-- C-1.1 Salesforce Preheader END -->    
       
    <mj-raw>
       <!-- Shared Eloqua Prospect Header BEGIN -->
@@ -346,7 +331,7 @@ ENDIF
 
 
     <!-- BEGIN C-2.0 Copy block with single primary CTA -->
-     <mj-section css-class="text-box">
+     <mj-section>
       <mj-column css-class="hyphenation">
         <mj-text>
           <p style="text-transform:capitalize;">Hi %%Preferred_Name__c%%,</p>
@@ -379,11 +364,13 @@ ENDIF
     </mj-section>
     <!--  END Secondaries: Rounded White Card on Grey, left aligned, Text and Ghost CTAs --> 
 
+  <!--  BEGIN Spacer -->    
     <mj-section>
       <mj-column>
-        <mj-spacer height="25px"></mj-spacer>
+        <mj-spacer height="25px" />
       </mj-column>
     </mj-section>
+  <!-- End Spacer -->
 
        <mj-raw>
       <!-- SFMC HTML Track Opens BEGIN -->

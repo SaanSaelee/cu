@@ -179,9 +179,14 @@
    <mj-column>
     <mj-text>
       <p style="text-transform:capitalize;">Hi %%Preferred_Name__c%%,</p>
-      <p>I saw you started a Capella application – good work taking that first step.</p>
-      <p>If you have questions or need help along the way, I’m here for you. I can guide you through the application process, help you explore options and get you started on your program. </p>
-      <p>Have any questions before you apply? Just reply to this email. Or, if you’re ready, go ahead and <a style="text-decoration:underline;" href="https://apply.capella.edu/login/?seicid=f44e26848033416fa89f0765165c1bd2">finish your application</a> today – there’s no fee. </p>
+      <p>I noticed your Capella application is still in progress.</p>
+      <p>If anything is holding you back – like questions about your program, the application or what comes next – I’m here to help. Just reply to this email, give me a call or send a text. </p>
+      <p style="margin-bottom:0;">When you’re ready, you can pick up where you left off.</p>
+      
+      </mj-text>
+      <mj-button css-class="ghostbtn"  name="project#_EM#_2B_Button" background-color="#C10016" border-radius="30px"  href="https://www.capella.edu" align="left" inner-padding="9px 25px 8px">Finish application</mj-button>
+      <mj-text>
+      <p style="">I look forward to hearing from you.</p>
       <p>Best regards, </p>
      </mj-text>   
     </mj-column>  

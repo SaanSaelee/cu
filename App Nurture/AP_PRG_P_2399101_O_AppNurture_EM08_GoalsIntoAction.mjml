@@ -16,7 +16,7 @@
       
       h5{font-family:Arial,sans-serif;font-size:22px; line-height:26px;margin:0px !important;}
       h6{font-family:Arial,sans-serif;font-size:18px; line-height:22px;margin:0px !important;}
-      a{color:#C10016;font-weight:bold; text-decoration:none;}
+      a{color:#C10016;font-weight:bold; text-decoration:underline;}
     </mj-style>
     <mj-style> 
     @font-face {
@@ -240,7 +240,21 @@
     </mj-section>
     <!-- C-1.1 Salesforce Preheader END -->      
 
-     
+    <!-- C-1.1 Salesforce Preheader BEGIN delete the <a> if there is no link -->
+    <mj-section css-class="mhidden" padding="0px">
+      <mj-group>
+        <mj-column width="60%">
+          <mj-text align="left" font-size="12px" line-height="18px" color="#53565A"><a style="font-family: arial,sans-serif;font-weight:normal;text-decoration:underline;color:#53565A" href="https://www.capella.edu/admissions-requirements/accelerated-masters-pathway/?seicid=d45c01df00ed4d1db8b2b2e71c1c9a80"><span style="font-family: arial,sans-serif;color:#53565A;font-weight:normal;text-decoration:none;">Explore the Accelerated Master’s Pathway</span></a>.
+          </mj-text>
+        </mj-column>
+         <mj-column width="40%">
+          <mj-text align="right" font-size="12px" line-height="15px" color="#53565A">
+            <a style="color:#53565A;font-weight:normal;text-decoration:underline;" href="%%view_email_url%%"><span style="color:#53565A;font-weight:normal;text-decoration:underline;">View in browser</span></a>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- C-1.1 Salesforce Preheader END -->       
       
    <mj-raw>
       <!-- Shared Eloqua Prospect Header BEGIN -->
@@ -306,111 +320,72 @@ ENDIF
     </mj-section>
     <!-- END CU 2026 Brand SFMC App Shared Header -->
 
+    <!-- Hero with a transparent star + headline BEGIN -->
+    <mj-section background-color="#000000">
+      <mj-column>
+        <mj-image padding="0" alt="Portrayal of Capella University student on a
+laptop in her home with her dog." src="https://image.learner.capella.edu/lib/fe3411717164047a751076/m/1/ed6ee115-8a82-4cb0-b3f5-a668964432e9.png"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!-- Part 1 END -->
+    <!--  Part 2 BEGIN -->
+    <mj-section background-color="#000000" padding="0px">
+      <mj-group>
+      <mj-column width="91%">
+       <mj-text color="#FFFFFF" padding="0px 25px 15px">                   
+         <h2>Turn goals into action</h2>          
+        </mj-text>
+      </mj-column>
+      <mj-column width="9%" css-class="mhidden">
+       <mj-text color="#FFFFFF" padding="0px 25px 30px">                   
+         <h2>&nbsp;</h2>          
+        </mj-text>
+      </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- End  Hero with a transparent star + headline --> 
+
 
     <!-- BEGIN C-2.0 Copy block with single primary CTA -->
-     <mj-section padding-top="15px">
+     <mj-section>
       <mj-column css-class="hyphenation">
         <mj-text>
-          <h2>What sets Capella apart</h2>
-          <p style="margin-bottom:0;">You have goals. We have a path to help you reach them.</p>
-        </mj-text>
-        <mj-button css-class="hovered" href="https://apply.capella.edu/login/?seicid=f7c937833b6f4ad99fed6ffe6ed2cb93" align="left">
-         Finish your application</mj-button>        
-        <mj-text>
-          <p style="">Capella is designed for working adults who want to earn their degree without putting life on pause. Here are a few reasons students choose Capella as their next step.</p>
-        </mj-text>
-        </mj-column>
+          <p style="text-transform:capitalize;">Hi %%Preferred_Name__c%%,</p>
+          <p>Your goals are worth chasing.</p>
+          <p>If you’re still considering a <dynamic degree>, your program guide is a great place to dive back in. Explore the curriculum, support resources and outcomes and see how a Capella degree can help you explore new opportunities. </p>
+          <p style="margin-bottom:0;">Your application will be waiting for you when you’re ready.  </p>
+        </mj-text>        
+        <mj-button css-class="hovered" href="https://apply.capella.edu/login/?seicid=d45c01df00ed4d1db8b2b2e71c1c9a80" align="left" padding="10px 25px 30px">View program guide</mj-button> 
+      </mj-column>
     </mj-section>
-    <!-- C-2.0 Copy block with single primary CTA END --> 
+  <!-- C-2.0 Copy block with single primary CTA END -->
 
-
-    <!--  BEGIN Secondaries: Rounded Card on Grey, left aligned -->     
-    <mj-wrapper background-color="#F0F0EF" padding="25px 25px 5px">
-      <mj-section background-color="#FFFFFF" border-radius="24px" padding="15px 0 20px">
-        <mj-column>
-            <mj-text>
-              <h5>Flexibility</h5>
-              <p style="margin-bottom:10px;">Choose the structure of our GuidedPath learning format (all programs) or set your own deadlines with our FlexPath learning format (select programs).</p>
-            </mj-text>
-          </mj-column>      
-      </mj-section>
-    </mj-wrapper>
-  <!-- End Secondaries: Rounded Card on Grey, left aligned -->
-    <!--  BEGIN Secondaries: Rounded Card on Grey, left aligned -->     
-    <mj-wrapper background-color="#F0F0EF" padding="15px 25px 5px">
-      <mj-section background-color="#FFFFFF" border-radius="24px" padding="15px 0 20px">
-        <mj-column>
-            <mj-text>
-              <h5>Accreditation</h5>
-              <p style="margin-bottom:10px;">Capella University is accredited by the Higher Learning Commission. </p>
-            </mj-text>
-          </mj-column>      
-      </mj-section>
-    </mj-wrapper>
-  <!-- End Secondaries: Rounded Card on Grey, left aligned -->
-    <!--  BEGIN Secondaries: Rounded Card on Grey, left aligned -->     
-    <mj-wrapper background-color="#F0F0EF" padding="15px 25px 5px">
-      <mj-section background-color="#FFFFFF" border-radius="24px" padding="15px 0 20px">
-        <mj-column>
-            <mj-text>
-              <h5>Tuition savings</h5>
-              <p style="margin-bottom:10px;">Explore your eligibility for scholarships, tuition assistance, transfer credits and other ways to reduce tuition. Connect with us for details.</p>
-            </mj-text>
-          </mj-column>      
-      </mj-section>
-    </mj-wrapper>
-  <!-- End Secondaries: Rounded Card on Grey, left aligned -->
-    <!--  BEGIN Secondaries: Rounded Card on Grey, left aligned -->     
-    <mj-wrapper background-color="#F0F0EF" padding="15px 25px 5px">
-      <mj-section background-color="#FFFFFF" border-radius="24px" padding="15px 0 20px">
-        <mj-column>
-            <mj-text>
-              <h5>Career support</h5>
-              <p style="margin-bottom:10px;">Find career webinars, job search resources, networking and more at our Career Development Center. </p>
-            </mj-text>
-          </mj-column>      
-      </mj-section>
-    </mj-wrapper>
-  <!-- End Secondaries: Rounded Card on Grey, left aligned -->
-    <!--  BEGIN Secondaries: Rounded Card on Grey, left aligned -->     
-    <mj-wrapper background-color="#F0F0EF" padding="15px 25px 25px">
-      <mj-section background-color="#FFFFFF" border-radius="24px" padding="15px 0 20px">
-        <mj-column>
-            <mj-text>
-              <h5>Competency-based education</h5>
-              <p style="margin-bottom:10px;">Build practical, career-focused knowledge you can apply right away. </p>
-            </mj-text>
-          </mj-column>      
-      </mj-section>
-    </mj-wrapper>
-  <!-- End Secondaries: Rounded Card on Grey, left aligned -->
-
-      <!-- BEGIN Section Headline -->
-    <mj-section padding="0" background-color="#FFFFFF" css-class="text-box">
-      <mj-column>
-        <mj-text align="center" padding="25px 25px 5px">
-          <h4>VOICES OF CAPELLA</h4> 
+    <!--  BEGIN Secondaries: Rounded Grey Card, center aligned, 3 CTA options --> 
+     <mj-section background-color="#FFFFFF" padding="5px 25px 15px" css-class="text-box">
+      <mj-column vertical-align="top" css-class="hyphenation" background-color="#EBEBEB" border-radius="24px">
+       <mj-text padding="28px 6% 5px" align="center">
+         <h3>Your application is still open</h3>
+         <p style="margin-top:13px;margin-bottom:13px;">Invest in your potential – take a few moments to complete your application today. </p>
+        </mj-text>            
+        <mj-text align="center" padding="0px 0 5px">
+         <p style="padding:0px;margin:0;"><a href="https://apply.capella.edu/login/?seicid=23508b219a054f36a33bf06d76bc2eae">Finish your application &raquo;</a></p>
         </mj-text>     
-      </mj-column>
+        <mj-spacer height="25px" />    
+      </mj-column>      
     </mj-section>
-    <!-- Icon Section Headline END -->  
-
-
-    <!-- Copy block + image - White background/primary CTA Begin-->  
-    <mj-section background-color="#FFFFFF" direction="rtl">
-      <mj-column padding="0" css-class="hyphenation" vertical-align="middle">        
-         <mj-text align="left">
-          <p><i>“Capella sets you up for success through professional development, one-on-ones and advisors that take the initiative to prepare you for your future.”</i></p>
-          <p>–Lexus Lawrence, MS in School Counseling</p>
-          <p><i style="font-size:13px;line-height:18px;">Actual Capella alum who agreed to appear in promotional materials.</i></p>
-        </mj-text>
-      </mj-column>
-      <mj-column padding="0" vertical-align="middle">
-        <mj-image padding="0" src="https://image.learner.capella.edu/lib/fe3411717164047a751076/m/1/cd012281-152b-421a-ba60-01ce3feebdda.jpg" alt="Image of Capella University student Lexus
-Lawrence." fluid-on-mobile="true"></mj-image>
-      </mj-column>
+    <!--  END Secondaries: Rounded Grey Card, center aligned, 3 CTA options -->    
+    <!--  BEGIN Secondaries: Rounded Grey Card, center aligned, 3 CTA options --> 
+     <mj-section background-color="#FFFFFF" padding="5px 25px 15px" css-class="text-box">
+      <mj-column vertical-align="top" css-class="hyphenation" background-color="#707070" border-radius="24px">
+       <mj-text padding="28px 6% 5px" align="center" color="#FFFFFF">
+         <h3>See if you can save</h3>
+         <p style="margin-top:13px;margin-bottom:13px;">You could be eligible for tuition benefits through your employer. See if they’re a Capella partner. </p>
+         <p style="padding:0px;margin:0;"><a style="color:#FFFFFF;" href="https://www.capella.edu/tuition-financial-aid/employer-assistance/?seicid=23508b219a054f36a33bf06d76bc2eae">Find your employer &raquo;</a></p>
+        </mj-text>     
+        <mj-spacer height="25px" />    
+      </mj-column>      
     </mj-section>
-    <!-- Copy block + image - White background/primary CTA END -->  
+    <!--  END Secondaries: Rounded Grey Card, center aligned, 3 CTA options -->    
 
   <!--  BEGIN Spacer -->    
     <mj-section>
@@ -419,6 +394,7 @@ Lawrence." fluid-on-mobile="true"></mj-image>
       </mj-column>
     </mj-section>
   <!-- End Spacer -->
+
 
        <mj-raw>
       <!-- SFMC HTML Track Opens BEGIN -->

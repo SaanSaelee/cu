@@ -305,7 +305,7 @@ ENDIF
     <!-- END CU 2026 Brand SFMC App Shared Header -->
          
     <!-- Copy block + image - Dark background/ghost CTA Begin-->  
-    <mj-section background-color="#000000" css-class="text-box" padding="0px">
+    <mj-section background-color="#000000" padding="0px">
       <mj-column padding="0" css-class="hyphenation" vertical-align="middle">        
          <mj-text align="left" color="#FFFFFF" padding-top="25px">
           <h2>Your next move matters</h2>
@@ -321,7 +321,7 @@ ENDIF
 
 
     <!-- BEGIN C-2.0 Copy block with single primary CTA -->
-     <mj-section css-class="text-box">
+     <mj-section>
       <mj-column css-class="hyphenation">
         <mj-text align="center">
           <p style="margin-bottom:0;">Capella is built for working adults, with flexible online learning that puts you in control. There’s no application fee, so don’t hold back. </p>
@@ -344,6 +344,14 @@ ENDIF
       </mj-column>      
     </mj-section>
     <!--  END Secondaries: Rounded Grey Card, center aligned, 3 CTA options --> 
+
+  <!--  BEGIN Spacer -->    
+    <mj-section>
+      <mj-column>
+        <mj-spacer height="25px" />
+      </mj-column>
+    </mj-section>
+  <!-- End Spacer -->
 
        <mj-raw>
       <!-- SFMC HTML Track Opens BEGIN -->
