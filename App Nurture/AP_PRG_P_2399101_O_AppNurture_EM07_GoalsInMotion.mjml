@@ -240,22 +240,6 @@
     </mj-section>
     <!-- C-1.1 Salesforce Preheader END -->      
 
-      
-   <mj-raw>
-      <!-- Shared Eloqua Prospect Header BEGIN -->
-      <span elqid="1544" elqtype="Section" class="remove-absolute" style="display: block"></span>
-      <!-- Shared Eloqua Prospect Header END -->
-      <!-- Shared Eloqua Alumni Header BEGIN -->
-      <span elqid="1808" elqtype="Section" class="remove-absolute" style="display: block"></span>
-      <!-- Shared Eloqua Alumni Header END -->
-      <!-- Shared SFMC New Brand CU Prospect Header BEGIN -->
-      %%=ContentBlockbyId("123119")=%%
-      <!-- Shared SFMC New Brand CU Prospect Header END -->
-      <!-- Shared SFMC Learner Header Button Version BEGIN -->
-      %%=ContentBlockbyId("101723")=%%
-      <!-- Shared SFMC Learner Header Button Version END -->
-      <!-- Standard hero / photo small BEGIN -->
-    </mj-raw>
 
     <!-- BEGIN CU 2026 Brand SFMC App Shared Header -->
     <Mj-raw>%%[
@@ -296,7 +280,7 @@ ENDIF
       </mj-group>
       <mj-group width="50%">
         <mj-column vertical-align="middle" padding="10px 8px 10px 18px">
-        <mj-button css-class="hovered nav-nowrap" padding="0" align="right" background-color="#FFFFFF" color="#000000" border="2px #FFFFFF solid" inner-padding="9px 31px 9px" href="%%=v(@applyLink)=%%">My App</mj-button>
+        <mj-button css-class="hovered nav-nowrap" padding="0" align="right" background-color="#FFFFFF" color="#000000" border="2px #FFFFFF solid" inner-padding="9px 31px 9px" href="%%=v(@applyLink)=%%">My app</mj-button>
         </mj-column>
         <mj-column width="50%" vertical-align="middle" padding="10px 18px 10px 8px">
           <mj-button css-class="ghostbtn nav-nowrap" padding="0" align="left" color="#FFFFFF" background-color="#000000" border="2px #FFFFFF solid" border-radius="30px" inner-padding="9px 18px 9px" href="%%=v(@connectwithus)=%%">Contact&nbsp;us</mj-button>
@@ -326,10 +310,10 @@ ENDIF
      <mj-section>
       <mj-column css-class="hyphenation">
         <mj-text>
-          <p style="text-transform:capitalize;">Hi %%Preferred_Name__c%%,</p>
-          <p>You started your application. Now keep going.</p>
-          <p>Your classes could begin as soon as <dynamic start date>. With two learning formats designed for different preferences and needs, Capella enables you to earn a degree without putting your life on hold. </p>
-          <p style="margin-bottom:0;">It only takes a few minutes to complete your application.</p>
+          <p style="text-transform:capitalize;">%%=v(@preferredname)=%%,</p>
+          <p>Don’t let unanswered questions slow your momentum. </p>
+          <p>Whether you’re choosing the right program, navigating admissions or exploring tuition savings, an enrollment specialist is here with guidance that’s personalized for your goals.</p>
+          <p style="margin-bottom:0;">You’ve already started your application. Now let’s finish it.</p>
         </mj-text>        
         <mj-button css-class="hovered" href="https://www.capella.edu/contact-enrollment/?seicid=a36288b6cc874c57a929894cf35beeec" align="left" padding="10px 25px 5px">Connect now</mj-button> 
       </mj-column>
@@ -403,33 +387,12 @@ ENDIF
   <!-- End Secondaries: Rounded Card on Grey, left aligned -->
 
 
-  <!--  BEGIN Spacer -->    
-    <mj-section>
-      <mj-column>
-        <mj-spacer height="25px" />
-      </mj-column>
-    </mj-section>
-  <!-- End Spacer -->
-
-
-
        <mj-raw>
       <!-- SFMC HTML Track Opens BEGIN -->
       <custom name="opencounter" type="tracking" > </custom>
       <custom name="usermatch" type="tracking" ></custom>
       <!--SFMC HTML Track Opens END -->
-      
-      <!-- SFMC AA promotional Footer Icons BEGIN-->
-      %%=ContentBlockbyID("103655")=%%
-      <!-- SFMC AA promotional Footer Icons END -->
 
-      <!-- SFMC AA promotional Footer BEGIN-->
-      %%=ContentBlockbyID("35844")=%%
-      <!-- SFMC AA promotional Footer END -->
-
-      <!-- SFMC ES promotional Footer Icons BEGIN-->
-      %%=ContentBlockbyID("103804")=%%
-      <!-- SFMC ES promotional Footer Icons END -->
 
       <!-- SFMC New Brand CU Promotional Footer BEGIN-->
       %%=ContentBlockbyID("123128")=%%

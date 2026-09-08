@@ -238,39 +238,8 @@
         </mj-column>
       </mj-group>
     </mj-section>
-    <!-- C-1.1 Salesforce Preheader END -->      
-
-    <!-- C-1.1 Salesforce Preheader BEGIN delete the <a> if there is no link -->
-    <mj-section css-class="mhidden" padding="0px">
-      <mj-group>
-        <mj-column width="60%">
-          <mj-text align="left" font-size="12px" line-height="18px" color="#53565A"><a style="font-family: arial,sans-serif;font-weight:normal;text-decoration:underline;color:#53565A" href="https://www.capella.edu/admissions-requirements/accelerated-masters-pathway/?seicid=d45c01df00ed4d1db8b2b2e71c1c9a80"><span style="font-family: arial,sans-serif;color:#53565A;font-weight:normal;text-decoration:none;">Explore the Accelerated Master’s Pathway</span></a>.
-          </mj-text>
-        </mj-column>
-         <mj-column width="40%">
-          <mj-text align="right" font-size="12px" line-height="15px" color="#53565A">
-            <a style="color:#53565A;font-weight:normal;text-decoration:underline;" href="%%view_email_url%%"><span style="color:#53565A;font-weight:normal;text-decoration:underline;">View in browser</span></a>
-          </mj-text>
-        </mj-column>
-      </mj-group>
-    </mj-section>
-    <!-- C-1.1 Salesforce Preheader END -->       
+    <!-- C-1.1 Salesforce Preheader END -->        
       
-   <mj-raw>
-      <!-- Shared Eloqua Prospect Header BEGIN -->
-      <span elqid="1544" elqtype="Section" class="remove-absolute" style="display: block"></span>
-      <!-- Shared Eloqua Prospect Header END -->
-      <!-- Shared Eloqua Alumni Header BEGIN -->
-      <span elqid="1808" elqtype="Section" class="remove-absolute" style="display: block"></span>
-      <!-- Shared Eloqua Alumni Header END -->
-      <!-- Shared SFMC New Brand CU Prospect Header BEGIN -->
-      %%=ContentBlockbyId("123119")=%%
-      <!-- Shared SFMC New Brand CU Prospect Header END -->
-      <!-- Shared SFMC Learner Header Button Version BEGIN -->
-      %%=ContentBlockbyId("101723")=%%
-      <!-- Shared SFMC Learner Header Button Version END -->
-      <!-- Standard hero / photo small BEGIN -->
-    </mj-raw>
 
     <!-- BEGIN CU 2026 Brand SFMC App Shared Header -->
     <Mj-raw>%%[
@@ -311,7 +280,7 @@ ENDIF
       </mj-group>
       <mj-group width="50%">
         <mj-column vertical-align="middle" padding="10px 8px 10px 18px">
-        <mj-button css-class="hovered nav-nowrap" padding="0" align="right" background-color="#FFFFFF" color="#000000" border="2px #FFFFFF solid" inner-padding="9px 31px 9px" href="%%=v(@applyLink)=%%">My App</mj-button>
+        <mj-button css-class="hovered nav-nowrap" padding="0" align="right" background-color="#FFFFFF" color="#000000" border="2px #FFFFFF solid" inner-padding="9px 31px 9px" href="%%=v(@applyLink)=%%">My app</mj-button>
         </mj-column>
         <mj-column width="50%" vertical-align="middle" padding="10px 18px 10px 8px">
           <mj-button css-class="ghostbtn nav-nowrap" padding="0" align="left" color="#FFFFFF" background-color="#000000" border="2px #FFFFFF solid" border-radius="30px" inner-padding="9px 18px 9px" href="%%=v(@connectwithus)=%%">Contact&nbsp;us</mj-button>
@@ -371,11 +340,10 @@ tablet with blue wall." src="https://image.learner.capella.edu/lib/fe34117171640
     <!-- END Double Molecule with a ghost - stacked left in mobile with max characters -->   
 
     <!--  BEGIN Secondaries: Rounded Grey Card, center aligned, 3 CTA options --> 
-     <mj-section background-color="#FFFFFF" padding="5px 25px 15px" css-class="text-box">
+     <mj-section background-color="#FFFFFF" padding="5px 25px 5px" css-class="text-box">
       <mj-column vertical-align="top" css-class="hyphenation" background-color="#EBEBEB" border-radius="24px">
        <mj-text padding="28px 6% 5px" align="center">
          <h3>Ready to take the next step?</h3>
-         <p style="margin-top:13px;margin-bottom:13px;">It only takes a few minutes.</p>
         </mj-text>            
         <mj-text align="center" padding="0px 0 5px">
          <p style="padding:0px;margin:0;"><a href="https://apply.capella.edu/login/?seicid=90c8a327735c4d9195197e70db071136">Finish your application &raquo;</a></p>
@@ -385,31 +353,13 @@ tablet with blue wall." src="https://image.learner.capella.edu/lib/fe34117171640
     </mj-section>
     <!--  END Secondaries: Rounded Grey Card, center aligned, 3 CTA options -->    
 
-  <!--  BEGIN Spacer -->    
-    <mj-section>
-      <mj-column>
-        <mj-spacer height="25px" />
-      </mj-column>
-    </mj-section>
-  <!-- End Spacer -->
 
        <mj-raw>
       <!-- SFMC HTML Track Opens BEGIN -->
       <custom name="opencounter" type="tracking" > </custom>
       <custom name="usermatch" type="tracking" ></custom>
       <!--SFMC HTML Track Opens END -->
-      
-      <!-- SFMC AA promotional Footer Icons BEGIN-->
-      %%=ContentBlockbyID("103655")=%%
-      <!-- SFMC AA promotional Footer Icons END -->
-
-      <!-- SFMC AA promotional Footer BEGIN-->
-      %%=ContentBlockbyID("35844")=%%
-      <!-- SFMC AA promotional Footer END -->
-
-      <!-- SFMC ES promotional Footer Icons BEGIN-->
-      %%=ContentBlockbyID("103804")=%%
-      <!-- SFMC ES promotional Footer Icons END -->
+ 
 
       <!-- SFMC New Brand CU Promotional Footer BEGIN-->
       %%=ContentBlockbyID("123128")=%%
